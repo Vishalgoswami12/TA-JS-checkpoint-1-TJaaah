@@ -5,28 +5,35 @@
 function sum(a, b) {
   return a + b;
 }
-
+// It will return the value of sum
 // second
 function sum(a, b) {
   console.log(a + b);
 }
 ```
 
+<!-- //it will print the value of sum -->
+
 2. If we store the returned value of both functions above in variable `first` and `second` what will be the value of `first` and `second`.
 
+   <!-- let first = sum(4,6);//10 -
+   <!-- let second = sum (8,7);//undefined -->
+
 3. What will be the output when you call above `sum` function (first) with three parameter like `sum(12, 24, 35)`. Explain why?
-
+   <!-- The output of sum is 36 because in function there is two parameter is defined. -->
 4. Can you store the first `sum` function in a variable named `add`. If yes why? If no why?
-
+   <!-- Yes because function returned value can be store in multiple variables. -->
 5. Declare a function named `sayHello` the accepts a parameter `name` and returns the name like `Hello Arya`.
-
+   <!-- function sayHello(name){
+     return "hello+ " " +$(nme);
+   } -->
 6. What will be the output of the function below and why?
 
 ```js
-let userName = 'John';
+let userName = "John";
 
 function showMessage() {
-  let message = 'Hello, ' + userName;
+  let message = "Hello, " + userName;
   return message;
 }
 
@@ -36,10 +43,10 @@ showMessage();
 7. What will be the output for `Output1` `Output2` and `Output3` in the code below.
 
 ```js
-let userName = 'John';
+let userName = "John";
 
 function showMessage() {
-  let message = 'Hello, ' + userName;
+  let message = "Hello, " + userName;
   return message;
 }
 
